@@ -1,0 +1,24 @@
+{
+  "name": "Restaurant",
+  "version": "1.0.0",
+  "description": "This is a made up restaurant site that I am using to understand the basics of NPM, Webpack, and the import/export feature of JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickfrahm/Restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickfrahm/Restaurant/issues"
+  },
+  "homepage": "https://github.com/nickfrahm/Restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
