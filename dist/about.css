@@ -71,15 +71,30 @@
 .about__content {
     margin: 20px;
     width: 60%;
+    max-width: 595px;
     text-align: center;
     border-radius: 10px;
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .about__content * {
     line-height: 1.2;
-    margin: 20px;
+    margin: 15px;
+}
+
+@media (min-width: 1000px) {
+    .about {
+        align-items: center;
+    }
+
+    .about__header {
+        font-size: 46px;
+    }
+
+    .about__details {
+        font-size: 24px;
+    }
 }
