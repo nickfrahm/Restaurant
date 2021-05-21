@@ -1,4 +1,4 @@
-export const about = () => {
+export const About = () => {
   //parent about section
   const aboutSection = document.createElement("section");
   aboutSection.classList.add("about");

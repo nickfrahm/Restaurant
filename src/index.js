@@ -1,6 +1,7 @@
-import {nav} from './Nav';
-import {about} from './About';
+import {Nav} from './Nav';
+import {About} from './About';
+import {Menu} from './Menu';
 
 const content = document.getElementById("content");
-content.appendChild(nav());
-content.appendChild(about());
+content.appendChild(Nav());
+content.appendChild(About());

@@ -1,4 +1,4 @@
-export const nav = () => {
+export const Nav = () => {
     //create nav parent element
     const navBar = document.createElement("nav");
     navBar.classList.add("navbar");
