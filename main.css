@@ -85,6 +85,10 @@
     margin: 15px;
 }
 
+.active {
+    border-bottom: 4px solid #FF964A;
+}
+
 @media (min-width: 1000px) {
     .about {
         align-items: center;
