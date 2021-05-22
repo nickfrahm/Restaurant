@@ -15,17 +15,17 @@ export const Menu = () => {
     {
       name: "Hawaiian Sliders",
       price: "$12",
-      imgSrc: "../images/pulled-pork-stock.jpg"
+      imgSrc: "../dist/images/pulled-pork-stock.jpg"
     },
     {
       name: "Crunch's Brisket",
       price: "$14",
-      imgSrc: "../images/brisket-stock.webp"
+      imgSrc: "../dist/images/brisket-stock.webp"
     },
     {
       name: "Classic Ribs",
       price: "$16",
-      imgSrc: "../images/ribs-stock.jpg"
+      imgSrc: "../dist/images/ribs-stock.jpg"
     }
   ];
 

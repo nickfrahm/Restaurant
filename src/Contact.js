@@ -19,7 +19,7 @@ export const Contact = () => {
 
     const map = document.createElement("img");
     map.classList.add("mapImg");
-    map.src = '../images/FakeMap.png'
+    map.src = '../dist/images/FakeMap.png'
     map.alt = "Crunch's BBQ location"
     contactContainer.appendChild(map);
 

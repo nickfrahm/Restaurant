@@ -7,7 +7,7 @@ export const About = () => {
   const bbqImg = document.createElement("img");
   bbqImg.classList.add("img", "img__bbq");
   bbqImg.alt = "BBQ picture";
-  bbqImg.src = "../images/bbq-stock.jpg";
+  bbqImg.src = "../dist/images/bbq-stock.jpg";
   aboutSection.appendChild(bbqImg);
 
   //about content container
