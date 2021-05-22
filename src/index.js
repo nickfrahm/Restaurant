@@ -1,6 +1,7 @@
 import {Nav} from './Nav';
 import {About} from './About';
 import {Menu} from './Menu';
+import {Contact} from './Contact';
 
 //load Nav and About section on page load
 const content = document.getElementById("content");
