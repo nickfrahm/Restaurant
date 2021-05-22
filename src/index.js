@@ -6,20 +6,24 @@ import {Menu} from './Menu';
 const content = document.getElementById("content");
 content.appendChild(Nav());
 content.appendChild(About());
+document.getElementById("about").classList.add("active");
 
 ["about", "menu", "contact"].forEach((link) => {
-    document.getElementById(link).addEventListener("click", () => {
-        //clear #content
-        while (content.firstChild) {
-            content.removeChild(content.firstChild);
+    document.getElementById(link).addEventListener("click", (e) => {
+        //clear #content of everything but nav
+        while (content.lastElementChild.className !== "navbar") {
+            content.removeChild(content.lastElementChild);
         }
 
+        document.querySelector(".active").classList.remove("active");
+        e.target.classList.add("active");
+
         //append proper page to DOM
-        if (link === "about") {
+        if (e.target.id === "about") {
             content.appendChild(About());
-        } else if (link === "menu") {
+        } else if (e.target.id === "menu") {
             content.appendChild(Menu());
-        } else if (link === "contact") {
+        } else if (e.target.id === "contact") {
             content.appendChild(Contact());
         }
     })

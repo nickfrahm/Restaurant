@@ -15,21 +15,21 @@ export const Menu = () => {
     {
       name: "Hawaiian Sliders",
       price: "$12",
-      imgSrc: "../images/pulled-pork-stock.jpg",
+      imgSrc: "../images/pulled-pork-stock.jpg"
     },
     {
       name: "Crunch's Brisket",
       price: "$14",
-      imgSrc: "../images/brisket-stock.webp",
+      imgSrc: "../images/brisket-stock.webp"
     },
     {
       name: "Classic Ribs",
       price: "$16",
-      imgSrc: "../images/ribs-stock.jpg",
-    },
+      imgSrc: "../images/ribs-stock.jpg"
+    }
   ];
 
-  for (let i = 0; foods.length; i++) {
+  for (let i = 0; i < foods.length; i++) {
       const menuItem = document.createElement("div");
       menuItem.classList.add("item");
 
@@ -41,7 +41,7 @@ export const Menu = () => {
 
       const info = document.createElement("div");
       info.classList.add("info");
-      menuItem.appendChild("info");
+      menuItem.appendChild(info);
 
       const foodName = document.createElement("h2");
       foodName.classList.add("foodName");
