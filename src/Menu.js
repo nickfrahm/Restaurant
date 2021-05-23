@@ -1,3 +1,7 @@
+import pulledPork from './images/pulled-pork-stock.jpg';
+import brisket from './images/brisket-stock.webp';
+import ribs from './images/ribs-stock.jpg';
+
 export const Menu = () => {
   const menuContainer = document.createElement("section");
   menuContainer.classList.add("menu__container");
@@ -15,17 +19,17 @@ export const Menu = () => {
     {
       name: "Hawaiian Sliders",
       price: "$12",
-      imgSrc: "../dist/images/pulled-pork-stock.jpg"
+      imgSrc: pulledPork
     },
     {
       name: "Crunch's Brisket",
       price: "$14",
-      imgSrc: "../dist/images/brisket-stock.webp"
+      imgSrc: brisket
     },
     {
       name: "Classic Ribs",
       price: "$16",
-      imgSrc: "../dist/images/ribs-stock.jpg"
+      imgSrc: ribs
     }
   ];
 

@@ -1,3 +1,5 @@
+import FakeMap from './images/FakeMap.png';
+
 export const Contact = () => {
     const contactContainer = document.createElement("section");
     contactContainer.className = "contact__container";
@@ -19,7 +21,7 @@ export const Contact = () => {
 
     const map = document.createElement("img");
     map.classList.add("mapImg");
-    map.src = '../dist/images/FakeMap.png'
+    map.src = FakeMap;
     map.alt = "Crunch's BBQ location"
     contactContainer.appendChild(map);
 

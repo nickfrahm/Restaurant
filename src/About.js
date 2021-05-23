@@ -1,3 +1,5 @@
+import bbqStock from './images/bbq-stock.jpg';
+
 export const About = () => {
   //parent about section
   const aboutSection = document.createElement("section");
@@ -7,7 +9,7 @@ export const About = () => {
   const bbqImg = document.createElement("img");
   bbqImg.classList.add("img", "img__bbq");
   bbqImg.alt = "BBQ picture";
-  bbqImg.src = "../dist/images/bbq-stock.jpg";
+  bbqImg.src = bbqStock;
   aboutSection.appendChild(bbqImg);
 
   //about content container
